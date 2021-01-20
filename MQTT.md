@@ -1,8 +1,7 @@
 ### MQTT协议
 
 #### 概述
-基于TCP协议实现的一种轻量级消息传输协议，因为其轻量级，易实现这些特点使得其在IOT领域是个很好
-的选择。
+基于TCP/IP协议、TLS协议、Websocket协议等传输层协议实现的一种轻量级消息传输协议，因为其轻量级，易实现这些特点使得其在IOT领域是个很好的选择。
 
 #### MQTT介绍
 首先分为客户端（Client）和服务端（Server），也常说有发布者（publish），订阅者（subscribe），
@@ -52,7 +51,7 @@ MQTT控制报文由三部分组成
 <table>
     <tr>
         <td>Bit</td>
-        <td colspan>7</td> 
+        <td >7</td> 
         <td>6</td> 
         <td>5</td> 
         <td>4</td> 
